@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="inputForm">
+            <h1>Book List App <sub onclick="window.open('https://facebook.com/robiidb')">&copy; Robiul</sub></h1>
+            <form action="" id="form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title">
+                </div>
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <input type="text" id="author">
+                </div>
+                <div class="form-group">
+                    <label for="year">Year</label>
+                    <input type="number" id="year">
+                </div>
+                <button type="submit">Add Book</button>
+            </form>
+            <hr>
+        </div>
+        <div class="bookList">
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                </tr>
+                <tbody id="bookList">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 1% 7%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: blueviolet;
+ 
+}
+.inputForm{
+   max-width: 500px;
+   margin:10px auto;
+}
+.inputForm h1{
+    text-align: center;
+    color: white;
+}
+
+.form-group{
+    display: grid;
+    line-height: 29px;
+    
+}
+.form-group label{
+   margin-left: 5px;
+   color: white;
+   font-weight:500;
+    
+}
+
+.form-group input{
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+button{
+    margin: 20px auto;
+    padding: 8px 10px;
+    background-color: rgb(98, 16, 175);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+.bookList{
+    max-width: 500px;
+   margin:10px auto;
+}
+table{
+    margin:10px auto;
+}
+th{
+    /* background-color: rgb(169, 99, 235); */
+}
+th, td{
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+
+}
+sub{
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+
